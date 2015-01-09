@@ -135,6 +135,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', end
 .twitter-widget-tabs-content {
     position: absolute;
     top: 26px;
+    width: 100%;
 }
 
 #twitter-widget-tabs{
@@ -219,8 +220,19 @@ a, a:hover, a:active, a:focus {
 #twitter-widget2 ul.tweet-twitter ,
 #twitter-widget3 ul.tweet-twitter {
         margin: auto;
-        margin-left: -30px;
-        width: 92%;
+        margin-left: 0px;
+        padding-left: 10px;
+        /*width: 92%;*/
+        display: block;
+        float: none;
+        padding-right: 15px;
+}
+#twitter-widget1 ul.tweet-twitter:after ,
+#twitter-widget2 ul.tweet-twitter:after ,
+#twitter-widget3 ul.tweet-twitter:after{
+    content: " ";
+    display: block;
+    clear: both;
 }
 #twitter-widget1 ul.tweet-twitter li ,
 #twitter-widget2 ul.tweet-twitter li ,
@@ -273,7 +285,8 @@ p.timePosted {
 
 p.tweet,
 p.timePosted{
-        width: 200px;
+        /*width: 200px;*/
+        width: 85%;
         float: right;
 }
 
@@ -322,4 +335,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 #twitter-form textarea:focus {
     border-color: rgba(9, 150, 56, 0.4);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(9, 150, 56, 0.5);
+}
+.jspPane {
+    width: 100% !important;
 }

@@ -295,6 +295,7 @@ $(window).resize(function(){
 
 function fixedNavHeight() {
   $navbarHeight = $('.navbar-fixed-top').height();
+  console.log($navbarHeight);
   $('.outer-container').css('padding-top', $navbarHeight);
   if ($(window).scrollTop() >= 100) {
     $("header.navbar-fixed-top").addClass("sticky-header");

@@ -1,4 +1,4 @@
-s<!-- Footer portion -->
+<!-- Footer portion -->
 <footer id="footer">
 	<div class=" footer_conatines_extra_class footer_shadow">
 		<div class="container">
@@ -38,15 +38,16 @@ s<!-- Footer portion -->
 						<div class="col-md-12">
 							<ul class="page-list">
 								<li class="page_item"><a href="index.php" class="menu"><span>Home</span></a></li>
-								<li class="page_item"><a href="how-it-works.php" class="menu"><span>How it Works</span></a></li>
 								<li class="page_item"><a href="about.php" class="menu"><span>About</span></a></li>
+								<li class="page_item page_item_child"><a href="who-uses-anchorid.php">Where to Use AnchorID</a></li>
 								<li class="page_item page_item_child"><a href="who-we-are.php">Who we are</a></li>
+								<li class="page_item"><a href="how-it-works.php" class="menu"><span>How it Works</span></a></li>
 							</ul>
 							<ul class="page-list">
-								<li class="page_item page_item_child"><a href="who-uses-anchorid.php">Who uses AnchorID</a></li>
 								<li class="page_item page_item_child"><a href="superior-safety.php">Superior Safety</a></li>
 								<li class="page_item page_item_child"><a href="team.php">Team</a></li>
 								<li class="page_item page_item_child"><a href="news.php">News </a></li>
+								<li class="page_item page_item_child"><a href="events.php">Events</a></li>
 							</ul>
 							<ul class="page-list">
 								<li class="page_item page_item_child"><a href="careers.php">Careers</a></li>
@@ -165,8 +166,8 @@ s<!-- Footer portion -->
 								<li><a href="about.php">About</a></li>
 								<li><a target="_blank" href="http://developers.anchorid.com/">Developers</a></li>
 								<li><a href="support.php">Support</a></li>
-								<li><a target="_blank" class="fancybox" href="#popup">Login</a></li>
-								<li><a target="_blank" class="fancybox" href="#popup">Signup</a></li>
+								<li><a class="fancybox" href="#popup">Login</a></li>
+								<li><a class="fancybox" href="#popup">Signup</a></li>
 								<li><a class="sitemap" href="#">Sitemap</a></li>
 								<li><a href="privacy.php">Privacy</a></li>
 							</ul> 	

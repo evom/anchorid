@@ -29,10 +29,10 @@
 							</div>
 						</li>
 						<li>
-							<a target="_blank" href="#popup" class="pushed fancybox">Log in</a>
+							<a href="#popup" class="pushed fancybox">Log in</a>
 						</li>
 						<li class="last_menu">
-							<a target="_blank" href="#popup" class="pushed fancybox">Sign up</a>
+							<a href="#popup" class="pushed fancybox">Sign up</a>
 						</li>
 					</ul>
 				</div>
@@ -73,7 +73,7 @@
 						    <li><a class="child-menu" href="contact-us.php">Contact us</a></li>
 						</ul>
 					</li>
-					<li><a href="who-uses-anchorid.php" class="menu"><span>Where to use AnchrID</span></a></li>
+					<li><a href="who-uses-anchorid.php" class="menu"><span>Where to Use AnchorID</span></a></li>
 					<li class="dropdown">
 						<a target="_blank" href="http://developers.anchorid.com/"><span>Developers</span></a>
 						<ul class="dropdown-menu" role="menu">
