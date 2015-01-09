@@ -16,6 +16,48 @@
 						<h1 class="main-heading">News</h1>
 						<div class="inner-sub-menus"></div>
 						<div class="news-col">
+							<a target="_blank" href="http://www.bbc.com/news/technology-30632711">
+								<img src="images/bbc.png">
+								<h1>Stolen Usernames and Passwords contributed to massive Sony breach</h1>
+								<div class="date">December 30, 2014</div>
+								<p>Data that helped hackers access Sony's internal network came from another group targeting the firm's gaming network, reports the Washington Post.... </p>
+							</a>	
+							<a target="_blank" href="http://www.bbc.com/news/technology-30632711" class="btn view-demo-button">More</a>
+						</div>
+					</div>
+					<div class="news-border border-bottom">
+						<img src="images/images/border_hor.png" class="divider_setting"/>
+					</div>
+					<div id="section-content">
+						<div class="news-col">
+							<a target="_blank" href="https://twitter.com/AnchorID/status/549990676046155776">
+								<img src="images/consumer.png">
+								<h1>Bright Ideas for a Prosperous 2015</h1>
+								<div class="date">December 30, 2014</div>
+								<p>Consumer Reports Suggests AnchorID in Dec. Edition of Money Advisor Article.... </p>
+							</a>	
+							<a target="_blank" href="https://twitter.com/AnchorID/status/549990676046155776" class="btn view-demo-button">More</a>
+						</div>
+					</div>
+					<div class="news-border border-bottom">
+						<img src="images/images/border_hor.png" class="divider_setting"/>
+					</div>
+					<div id="section-content">
+						<div class="news-col">
+							<a target="_blank" href="http://www.nytimes.com/2014/11/06/technology/personaltech/augmenting-your-password-protected-world.html?emc=eta1&_r=0">
+								<img src="images/newyorktimes.png">
+								<h1>Augmenting Your Password-Protected World</h1>
+								<div class="date">November 5, 2014</div>
+								<p>A USERNAME and password combination has long been the standard security mechanism for online accounts. But that method just isn&#39;t cutting it anymore.... </p>
+							</a>	
+							<a target="_blank" href="http://www.nytimes.com/2014/11/06/technology/personaltech/augmenting-your-password-protected-world.html?emc=eta1&_r=0" class="btn view-demo-button">More</a>
+						</div>
+					</div>
+					<div class="news-border border-bottom">
+						<img src="images/images/border_hor.png" class="divider_setting"/>
+					</div>
+					<div id="section-content">
+						<div class="news-col">
 							<a target="_blank" href="http://www.moneysummit.com/the-summit/2014/9/26/here-are-the-7-finovatefall-winners-and-why-theyre-innovative-and-useful">
 								<img src="images/money-summit.png">
 								<h1>The Winners</h1>
@@ -44,13 +86,13 @@
 					</div>
 					<div id="section-content">
 						<div class="news-col">
-							<a target="_blank" href="http://www.usatoday.com/story/tech/2013/05/02/privacy-cybersecurity-two-factor-authentication/2129241/">
+							<a target="_blank" href="http://www.americanbanker.com/issues/179_186/four-standout-startups-at-finovate-day-2-1070222-1.html">
 								<img src="images/a-banker.png">
 								<h1>Four Standout Startups at Finovate Day 2</h1>
 								<div class="date">September 25, 2014</div>
 								<p>The second day of FinovateFall -- the speed-dating event in which financial technology vendors have seven minutes each to demonstrate their latest products to bankers.</p>
 							</a>
-							<a target="_blank" href="http://www.usatoday.com/story/tech/2013/05/02/privacy-cybersecurity-two-factor-authentication/2129241/" class="btn view-demo-button">More</a>
+							<a target="_blank" href="http://www.americanbanker.com/issues/179_186/four-standout-startups-at-finovate-day-2-1070222-1.html" class="btn view-demo-button">More</a>
 						</div>
 					</div>
 					<div class="news-border border-bottom">

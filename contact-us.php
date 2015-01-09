@@ -75,7 +75,7 @@ $(function(){
 			data: $("#contact_form").serialize(),
 			success: function(data) {
 				if(data){
-					$('div.form-success').html(data).slideDown().delay(6000).slideUp();
+					$('div.form-success').html("Your message has been successfully received.").slideDown().delay(6000).slideUp();
 					$('.notEmpty').val("");
 				}
 				// change_captcha();

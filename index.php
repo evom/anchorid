@@ -3,6 +3,16 @@
 <head>
 	<title>Home - AnchorID</title> 
 	<?php include('includes/head.php'); ?>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.best-logo').hover(function(){
+				$(this).find('.view-more').stop().slideDown();	
+			}, function(){
+				$(this).find('.view-more').stop().slideUp();	
+			});
+		
+		});
+	</script>
 </head>
 <body>
 <!-- Header Starts Here -->
@@ -13,22 +23,23 @@
 	 <div class="header_outer slider-container">
 	 <div class="container">
 	 		<div class="row">
-	 			<div class="col-xs-12">
-					<div style="margin-top: 0px; margin-bottom: 0;" class="best-flag animateOnLoad delay-animation-four" data-animation="fadeInDown">
-						<a target="_blank" class="" href="http://finovate.com/2014/09/finovatefall-2014-best-of-show-winners.html" >
- 							<!-- <img src="images/best-flag.png"class="animateOnLoad delay-animation-two" data-animation="fadeInRightBig" /> -->
- 							<canvas id="flag"></canvas>
+	 			<div class="col-md-12 header-setting outer-paddings">
+<!-- 					<div style="float:right; position:relative;"> -->
+					<!-- </div> -->
+	 				<div class="main-logo" style="display: block; text-align:center; width:100%;">
+	 					<img src="images/newlogo.png" class="home-main-logo" style="width:25%;"/>
+	 					<a target="_blank" class="best-logo" href="http://finovate.com/2014/09/finovatefall-2014-best-of-show-winners.html" style="position:absolute; right:50px; top:40px;">
+ 							<img src="images/best.jpg" width="75" height="75" class="home-best" />
+ 							<div class="view-more">View More</div>
  						</a>
-					</div>
-	 				<div class="main-logo" style="display: block;">
-	 					<img src="images/newlogo.png" class="animateOnLoad delay-animation-one" data-animation="fadeInRightBig" />
 	 				</div>
-	 				<div style="display:block; margin:0 20% auto;">
-	 					<img src="images/username.png" class="animateOnLoad delay-animation-two" data-animation="fadeInLeftBig" style="margin-top:0px;"  />
+	 				<div class="sub-title">
+	 					<!-- <img src="images/username.png" style="margin-top:0px;"  /> -->
+	 					ONE USERNAME, NO PASSWORDS <span style="font-size:13px; vertical-align:top; display:inline-block; text-shadow:none; margin-left:-8px;"><sup class="tm">TM</sup></span>
  	 					<!--<a target="_blank" href="http://finovate.com/best-of-show/" class="appstorebtn" ><img class="animateOnLoad delay-animation-two" data-animation="fadeInLeftBig" src="images/best.jpg" style="margin-left:10px;"></a>-->
 	 				</div>
 	 				<div class="slider-button">
-	 					<div class="animateOnLoad delay-animation-one home-slider-apps-btns" data-animation="fadeInLeftBig" style="">
+	 					<div>
 	 						<a target="_blank" href="https://itunes.apple.com/us/app/anchor-id-mobile-by-anchor/id917666351?ls=1&mt=8" class="appstorebtn appstores"><img src="images/app-store.png"></a>
 	 						<span class="slideror">OR</span>
 	 						<a target="_blank" href="https://play.google.com/store/apps/details?id=com.somaniac.anchorid&hl=en" class="googleplaybtn googleplay"><img src="images/google-play.png"></a>
@@ -44,6 +55,11 @@
 	 <div class="home_outer slider_back2">
 		<div class="container container_setting">
 			<div class="row">
+				<div class="col-md-12">
+					<h1 class="home-video-title">One Universal Username + Your Smartphone = Ultimate Ease and Security</h1> 
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-6 text-center">
 					<span class="img_responsives">
 					 	<a id="player1" class="fancybox-media" href="//player.vimeo.com/video/107662038?api=1&amp;player_id=player1&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"><img class="video-img-grey" src="images/password.jpg" /></a>
@@ -51,10 +67,9 @@
 				</div>
 				<div class="col-md-6">
 					<div class="new_way_to_social_login">
-						<h1>A Better Way to Sign In</h1> 
-						<p>No more passwords. Now you can securely log into any site that accepts AnchorID with one simple Username - Your Universal Username&trade; --and nothing else. Logging in or signing up has never been easier, or safer; AnchorID doesn't even want your name or address.</p>
-						<p>From Social Media to Email and Online Shopping or even Online Banking; Your Universal Username&trade; and your smartphone will get you safely in to them all. Using your smartphone instead of a password is far more secure then even the most complex passwords.</p>
-						<p>So download AnchorID and create your Universal Username&trade; today, and then forget about passwords forever!</p>
+						<p>The days of memorizing hundreds of passwords are over. The assumption that passwords can keep you safe has ended. We all know better. The technology has not caught up with the need. Until Now!</p>
+						<p>With AnchorID you get the ultimate security solution for your online life while using only ONE Username - Your Universal Username. Sign up free and experience the comfort of knowing that your data has up to four different factors of security and you have the ease of using one Universal Username and your Smartphone to get into every site. </p>
+						<p>AnchorID doesn&#39;t want your name, your address or your phone number. We don&#39;t have your data, we don&#39;t need your data, we don&#39;t want your data. Privacy. For Real.</p>
 					</div>
 					<div class="signin">
 						<!-- Sign Up Button -->
@@ -105,7 +120,7 @@
 						</div>
 
 						<div class="about">
-							<h1>Superior Safety</h1>
+							<h1 class="hmt">Superior Safety</h1>
 							<p>
 								AnchorID created a way to balance overlapping SSL Certificates with best-in-class network cryptography, PCI-standards, and a new technology used to secure Visa Checkout and Google Wallet. AnchorID secures access to your accounts by creating a digital key for every application you use. When you use your Universal
 							</p>
@@ -124,14 +139,14 @@
 					 			<!-- <a id="player1" class="fancybox-media" href="//player.vimeo.com/video/108351421?api=1&amp;player_id=player1&amp;title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"><img class="video-img-grey sandbox-video" src="images/home_sandbox_video.jpg" /></a> -->
 					 		</span>
 					 		<div class="sandox-title">
-								<span class="sandbox-video-title">
+								<div class="sandbox-video-title">
 					 				Best-of-Show winning presentation from Finovate 
-					 			</span>
-								<a href="http://www.finovate.com/fall14vid/anchorid.html" target="_blank">
-									<button type="button" class="btn btn-default btn-lg video-share-btn" style="height:15px; margin-top:5px; padding:0px !important; float:right;">
-									  <span class="glyphicon glyphicon-share-alt" style="top:-1px;"></span>
-									</button>
-								</a>
+					 				<a href="http://www.finovate.com/fall14vid/anchorid.html" target="_blank">
+										<button type="button" class="btn btn-default btn-lg video-share-btn">
+										  <span class="glyphicon glyphicon-share-alt"></span>
+										</button>
+									</a>
+					 			</div>
 							</div>	
 							
 							<div class="border-hor home-video-border">
@@ -140,7 +155,7 @@
 							</div>
 							
 							<div class="sandbox">
-								<h1>Developer Sandbox</h1>
+								<h1 class="hmt">Developer Sandbox</h1>
 								<div style="display:block;">
 									<div class="developer_sandbox-buttons">
 										<span class="fork">
@@ -154,18 +169,22 @@
 									Do you own or manage a website? Offer your customers the security of signing in with AnchorID now, and save them the hassle of dealing with passwords. We have a full suite of API's and SDK's so integrating AnchorID is a breeze. Go to our Developers page for more information on integrating AnchorID into your website or applications.	  <!-- <span class="more">more</span>  -->
 								</p>
 								<span class="apps">
-									<p>App Available</p>
+									<p>App Available:</p>
 		<!-- 								<a target="_blank" href="https://itunes.apple.com/us/app/anchor-id-mobile-by-anchor/id917666351?ls=1&mt=8" class="btn btn-small"><i class="fa fa-apple"></i> App Store</a>
 										<a target="_blank" href="https://play.google.com/store/apps/details?id=com.somaniac.anchorid&hl=en" class="btn btn-small"><i class="fa fa-android"></i> Play Store</a> -->
 		
-										<a href="https://itunes.apple.com/us/app/anchor-id-mobile-by-anchor/id917666351?ls=1&mt=8" target="_blank">
+										<a class="home-buttons" href="https://itunes.apple.com/us/app/anchor-id-mobile-by-anchor/id917666351?ls=1&mt=8" target="_blank">
 											<img src="images/app-store.png" width="120" height="auto">
 										</a>
-										<a href="https://play.google.com/store/apps/details?id=com.somaniac.anchorid&hl=en" target="_blank">
+										<a class="home-buttons" href="https://play.google.com/store/apps/details?id=com.somaniac.anchorid&hl=en" target="_blank" style="margin-right:0px;">
 											<img src="images/google-play.png" width="120" height="auto">
 										</a>
 								</span>
-							</div>
+<!-- 								<span class="sandbox-btns">
+									<a href="http://developers.anchorid.com/" class="btn btn-small">Download SDK</a>
+									<a href="#" class="btn btn-small btn-tooltip blank" data-toggle="tooltip" data-placement="top" title="Coming Soon">Developer Alerts</a>
+								</span>
+ -->							</div>
 							
 						</div>
 
@@ -182,6 +201,24 @@
 							<div class="latest_news_scroller_container">
 								<div class="latest_news_scroller">
 									<ul class="latest_ul">
+									<li>
+										<a href="news.php">
+											<div class="scroller_image"><img src="images/bbc.png"></div>
+											<p>December 30, 2014 Data that helped hackers access Sony's internal network came from another group targeting...</p>
+										</a>
+									</li>
+									<li>
+										<a href="news.php">
+											<div class="scroller_image"><img src="images/consumer.png"></div>
+											<p>December 30, 2014 Consumer Reports Suggests AnchorID in Dec. Edition of Money Advisor Article</p>
+										</a>
+									</li>
+									<li>
+										<a href="news.php">
+											<div class="scroller_image"><img src="images/newyorktimes.png"></div>
+											<p>November 5, 2014 A USERNAME and password combination has long been the standard security mechanism for...</p>
+										</a>
+									</li>
 									<li>
 										<a href="news.php">
 											<div class="scroller_image"><img src="images/money-summit.png"></div>
@@ -254,7 +291,6 @@
 											<p>August 22, 2014 In these days of hacks, Heartbleed, and endless breaches, a strong, unique</p>	
 										</a>
 									</li>
-
 									</ul>								
 								</div>	
 							</div>
@@ -268,7 +304,7 @@
 </div>
 
 <script type="text/javascript">
-var h = new Image;
+/*var h = new Image;
 h.onload = function(){
 	var flag = document.getElementById('flag');
 	var amp = 10;
@@ -318,7 +354,7 @@ function waveFlag( canvas, wavelength, amplitude, period, shading, squeeze ){
 		// if ((++ct)%100 == 0) console.log( 1000 * ct / (new Date - st));
 	},5/fps);
 }
-
+*/
 </script>
 
 	<!-- Content Portion Ends Here -->

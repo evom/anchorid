@@ -16,3 +16,4 @@
 [27-Sep-2014 08:31:40 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/qbpn/public_html/anchorid/careers.php on line 66
 [27-Sep-2014 08:31:40 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/qbpn/public_html/anchorid/careers.php on line 66
 [27-Sep-2014 08:31:40 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/qbpn/public_html/anchorid/careers.php on line 66
+[05-Nov-2014 00:57:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/qbpn/public_html/anchorid/mail.contact.php on line 88

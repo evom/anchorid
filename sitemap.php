@@ -21,19 +21,21 @@
 			<div id="section-content" class="sitemaps">
 			<ul>
 				<li class="sitemap-menu"><a href="index.php" class="menu"><span>Home</span></a></li>
-				<li class="sitemap-menu"><a href="how-it-works.php" class="menu"><span>How it Works</span></a></li>
+				<!-- <li class="sitemap-menu"><a href="how-it-works.php" class="menu"><span>How it Works</span></a></li> -->
 				<li class="sitemap-menu"><a href="about.php" class="menu"><span>About</span></a></li>
+				<li class="sitemap-menu sitemap-menu_child"><a href="who-uses-anchorid.php">Where to Use AnchorID</a></li>
 				<li class="sitemap-menu sitemap-menu_child"><a href="who-we-are.php">Who we are</a></li>
-				<li class="sitemap-menu sitemap-menu_child"><a href="who-uses-anchorid.php">Who uses AnchorID</a></li>
+				<li class="sitemap-menu sitemap-menu_child"><a href="superior-safety.php">Superior Safety</a></li>
+				
 			</ul>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div id="section-content" class="sitemaps">
 			<ul>
-				<li class="sitemap-menu sitemap-menu_child"><a href="superior-safety.php">Superior Safety</a></li>
 				<li class="sitemap-menu sitemap-menu_child"><a href="team.php">Team</a></li>
 				<li class="sitemap-menu sitemap-menu_child"><a href="news.php">News </a></li>
+				<li class="sitemap-menu sitemap-menu_child"><a href="events.php">Events</a></li>
 				<li class="sitemap-menu sitemap-menu_child"><a href="careers.php">Careers</a></li>
 				<li class="sitemap-menu sitemap-menu_child"><a href="contact-us.php">Contact us</a></li>
 			</ul>

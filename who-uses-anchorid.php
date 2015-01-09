@@ -12,12 +12,9 @@
 <div class="container"> 
 	<div class="row about-row-setting">
 
-		<div class="col-md-9 users-anchorid pull-right top-container">
-			
+		<div class="col-md-12 users-anchorid top-container">
 			<div id="section-content">
 				<h1 class="main-heading">Who Uses AnchorID</h1> 
-				<div class="inner-sub-menus">
-				</div>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="users-col" style="margin-left: 0;">
@@ -41,11 +38,11 @@
 
 				<div class="row logo-column">
 					<div class="col-md-4 text-center">
-						<a href="http://proxpn.com">
-							<img src="images/images/proxpn-big.png" />
+						<a href="http://proxpn.com/anchorid/">
+							<img src="images/images/logo123.png" />
 							<!-- <p>1.2 million users</p> -->
 							<div class="btn-container">
-								<a href="http://proxpn.com" class="btn view-demo-button">Coming Soon</a>
+								<a href="http://proxpn.com/anchorid/" class="btn-white view-demo-button1">Login with your AnchorID</a>
 							</div>
 
 						</a>
@@ -117,11 +114,11 @@
 			</div>
 	
 		</div>
-		<div class="col-md-3">
+<!-- 		<div class="col-md-3">
 			<div id="sidebar">
-				<?php include('includes/sidebar.php'); ?>	
+				<?php //include('includes/sidebar.php'); ?>	
 			</div>		
-		</div>
+		</div> -->
 	</div>
 	<!-- Ends of Row First -->
 

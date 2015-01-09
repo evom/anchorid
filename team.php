@@ -31,7 +31,6 @@
 				            </div>
 				        </a>    
 				    </div>  
-
 				    <div class="item">
 				        <a target="blank" href="http://www.linkedin.com/in/koplovitz" class="board-member">
 				            <div class="mg">
@@ -40,6 +39,19 @@
 				            <div class="mt">
 				                <h4>David Koplovitz</h4>
 				                <p>David has been Chief Product Officer of Anchor ID since April 2014. With a professional background rooted in the solid foundations of EDS, Intercept Payment Solutions and IBM, David has held two prior Chief Product Offer positions at both 2HQ.net and 3C Interactive, where he lead cutting edge product initiatives for high-profile web and mobile development clients. Earlier in his career, David was VP of Operations for CCG Technologies and Global Group, LLC.</p>
+				    
+				                <img src="images/ic-linkedin-footer.png" class="board">
+				            </div>
+				        </a>    
+				    </div>
+				    <div class="item">
+				        <a target="blank" href="http://www.linkedin.com/in/pauliemma" class="board-member">
+				            <div class="mg">
+				                <img width="250" height="250" alt="erik-small" class="attachment-medium wp-post-image" src="images/BobSmith.jpg">
+				            </div>
+				            <div class="mt">
+				                <h4>Paul Iemma</h4>
+				                <p>Mr. Paul Iemma, is now our National Sales Director at AnchorID, served as National Sales Director at mFoundry, recently acquired by Fidelity Information System. While at mFoundry and FIS, as sales director of Mobile Retail, his responsibilities included identifying new opportunities for Mobile Retail engagements with major financial institutions and national retail chains. These engagements encompassed all elements of a mobile retail project including payments, loyalty, rewards, eGift cards, and market analytics based on usage and activity. Previously Mr. Iemma was Director of Sales for Mobile Money Ventures and Vice President of Sales at ClairMail, later acquired by Monitise. He has been creating and delivering technology-based marketing solutions for over 30 years. He also serves as a member of the Board of Directors for the Burrillville Industrial Foundation.</p>
 				    
 				                <img src="images/ic-linkedin-footer.png" class="board">
 				            </div>
@@ -58,7 +70,7 @@
 						</div>
 						<div class="col-3">
 							<img src="images/developers/YelchenkoSerhii.jpg">
-							<h1>Serhil</h1>
+							<h1>Serhiy</h1>
 							<p>Project Coordinator</p>
 						</div>
 						<div class="col-3">
@@ -169,20 +181,18 @@
 						            </div>
 						        </div>    
 							</div>
-							<div class="member-cols">
+							<!-- <div class="member-cols">
 								<div class="board-member-col">
 						            <div class="member-img">
 						                <img width="250" height="250" alt="erik-small" class="attachment-medium wp-post-image" src="images/BobSmith.jpg">
 						            </div>
 						            <div class="member-text">
 						                <h4>Paul Iemma</h4>
-						                <p class="member-detail">Mr. Paul Iemma, an Advisory Board member at AnchorID, served as National Sales Director at mFoundry, recently acquired by Fidelity Information System. While at mFoundry and FIS, as sales director of Mobile Retail, his responsibilities included identifying new opportunities for Mobile Retail engagements with major financial institutions and national retail chains. These engagements encompassed all elements of a mobile retail project including payments, loyalty, rewards, eGift cards, and market analytics based on usage and activity. <br>
-
-Previously Mr. Iemma was Director of Sales for Mobile Money Ventures and Vice President of Sales at ClairMail, later acquired by Monitise. He has been creating and delivering technology-based marketing solutions for over 30 years. He also serves as a member of the Board of Directors for the Burrillville Industrial Foundation.</p>
+						                <p class="member-detail">Mr. Paul Iemma, an Advisory Board member at AnchorID, served as National Sales Director at mFoundry, recently acquired by Fidelity Information System. While at mFoundry and FIS, as sales director of Mobile Retail, his responsibilities included identifying new opportunities for Mobile Retail engagements with major financial institutions and national retail chains. These engagements encompassed all elements of a mobile retail project including payments, loyalty, rewards, eGift cards, and market analytics based on usage and activity. Previously Mr. Iemma was Director of Sales for Mobile Money Ventures and Vice President of Sales at ClairMail, later acquired by Monitise. He has been creating and delivering technology-based marketing solutions for over 30 years. He also serves as a member of the Board of Directors for the Burrillville Industrial Foundation.</p>
 						                <div class="more-container"><a href="" class="more" href="#">more...</a></div>
 						            </div>
 						        </div>    
-							</div>
+							</div> -->
 
 						</div>
 					</div>

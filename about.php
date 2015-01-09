@@ -12,14 +12,15 @@
 <div class="container">
 	<div class="row about-row-setting">   
 		
+		
+
 		<div class="col-md-9 pull-right top-container">
 			
 			<div id="section-content">
 				<h1 class="heading">About</h1>
 				<div class="inner-sub-menus">
 				</div>
-				<div class="col-md-7">
-
+				<div class="col-md-7 sidebar-margin-setting">
 					<p>
 						Anchor ID, Inc. is a digital identity company that allows consumers to use one universal login, combined with smartphone authentication, to access sites across the web. From social networks to entertainment sites, online banking to ecommerce, using Anchor ID, consumers no longer have to remember multiple logins and passwords to securely transact on the web. Headquartered in New York, Anchor ID raised seed capital in January 2014 and will launch in the fall of 2014.
 						Anchor ID, Inc. is a digital identity company that allows consumers to use one universal login, online banking to ecommerce, online banking to ecommerce, online banking to ecommerce, using Anchor ID, consumers no longer have to remember multiple logins and passwords to securely transact on the web. Headquartered in New York... <a href="who-we-are.php" class="more">more</a>
@@ -42,7 +43,7 @@
 				
 				<div class="section-modules">
 					
-						<div class="col-md-6">
+						<div class="col-md-6 sidebar-margin-setting">
 							<div class="superior-col">
 								<h1>Superior Safety</h1>
 								<p>Every time you log in, we will generate not one, but two separate encrypted certificates, one for the enterprise level, the other for the mobile communication... <a class="more" href="superior-safety.php">more</a></p>
@@ -84,6 +85,24 @@
 								<div class="latest_news_scroller_container">
 									<div class="latest_news_scroller_about">
 										<ul class="latest_ul">
+											<li>
+												<a href="news.php">
+													<div class="scroller_image"><img src="images/bbc.png"></div>
+													<p>December 30, 2014 Data that helped hackers access Sony's internal network came from another group targeting the firm's...</p>
+												</a>
+											</li>
+											<li>
+												<a href="news.php">
+													<div class="scroller_image"><img src="images/consumer.png"></div>
+													<p>December 30, 2014 Consumer Reports Suggests AnchorID in Dec. Edition of Money Advisor Article</p>
+												</a>
+											</li>
+											<li>
+												<a href="news.php">
+													<div class="scroller_image"><img src="images/newyorktimes.png"></div>
+													<p>November 5, 2014 A USERNAME and password combination has long been the standard security mechanism for online accounts.</p>
+												</a>
+											</li>
 											<li>
 												<a href="news.php">
 													<div class="scroller_image"><img src="images/money-summit.png"></div>
@@ -164,67 +183,6 @@
 
 				</div>
 			</div>
-		<!-- Slider Modules Starts Here -->
-<!-- 	<div class="row">
-			<div class="col-md-6">
-			<div id="modules">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			  		<div class="carousel-inner">
-			    		<div class="item active">
-			    			<div class="image">
-			      				<img src="images/images/david-small.jpg" alt="not found" style="width:140px; height:140px; float:left;">
-			      			</div>	
-	      					<p>David has been CEO of Anchor ID since January 2014. Recently named one of the most interesting voices in FinTech, he has successfully launched several early stage and growth stage products and services.</p>
-			    		</div>
-			    		<div class="item">
-			    			<div class="image">
-			      				<img src="images/images/kop-small.jpg" alt="not found" style="width:140px; height:140px; float:left;">
-			      			</div>
-							<p>David has been CEO of Anchor ID since January 2014. Recently named one of the most interesting voices in FinTech, he has successfully launched several early stage and growth stage products and services.</p>			        						      					
-			    		</div>
-			  		</div>
-				
-					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			    		<span class="glyphicon glyphicon-chevron-left"></span>
-					</a>
-					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			    		<span class="glyphicon glyphicon-chevron-right"></span>
-			  		</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-md-6">
-			<div id="modules">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-			    		<div class="item active">
-			    			<div class="image">
-			      				<img src="images/images/david-small.jpg" alt="not found" style="width:140px; height:140px; float:left;">
-			      			</div>	
-	      					<p>David has been CEO of Anchor ID since January 2014. Recently named one of the most interesting voices in FinTech, he has successfully launched several early stage and growth stage products and services.</p>
-			    		</div>
-			    		<div class="item">
-			    			<div class="image">
-			      				<img src="images/images/kop-small.jpg" alt="not found" style="width:140px; height:140px; float:left;">
-			      			</div>
-							<p>David has been CEO of Anchor ID since January 2014. Recently named one of the most interesting voices in FinTech, he has successfully launched several early stage and growth stage products and services.</p>			        						      					
-			    		</div>
-			  		</div>
-
-				
-					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			    		<span class="glyphicon glyphicon-chevron-left"></span>
-					</a>
-					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			    		<span class="glyphicon glyphicon-chevron-right"></span>
-			  		</a>
-				</div>
-			</div>
-		</div>
-	</div>  -->
-	<!-- Slider Modules Ends Here -->
-
 		</div>
 		<div class="col-md-3">
 

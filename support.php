@@ -29,33 +29,48 @@
 			         </div>
 			    </div>
 			    <div class="col-md-6">
-			    	<form role="form" class="contact-form support-form form" id="contact_form" action="mail.contact.php" method="post">
-			    		<div class="alert alert-error form-error error_mess"></div>
-			    		<div class="alert alert-success form-success error_mess"></div>
-			    		<div class="form-group">
-			    			<label for="name">What is your name, or nickname?</label>
-			    			<input type="text" name="name" class="form-control" id="name" placeholder="">
-			    		</div>
-			    		<div class="form-group">
-			    			<label for="email">We need your email to contact you:</label>
-			    			<input type="text" name="email" class="form-control" id="email" placeholder="">
-			    		</div>
-			    		<div class="form-group">
-			    			<label for="twitter">Do you have a Twitter handle? </label>
-			    			<input type="text" name="twitter_handle" class="form-control" id="twitter" placeholder="">
-			    		</div>
-			    		<div class="form-group">
-			    			<label for="comments">Questions for us? </label>
-			    			<textarea name="question" class="form-control" rows="3"></textarea>
-			    		</div>
-			    		<button type="submit" class="btn btn-success ">Submit</button>
-			    	</form>
+
+					<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="form" role="form support" method="POST">
+						<?php
+							$success = " ";
+							if(isset($_GET['success'])){
+								$success = $_GET['success'];
+						?>
+							<div class="alert alert-success form-success error_mess" style="display: block;">Your message has been successfully received.</div>
+						<?php $success = " ";}	?>
+						<div class="alert alert-error form-error error_mess"></div>
+
+						<input type=hidden name="oid" value="00DG0000000kr9o">
+						<input type=hidden name="retURL" value="http://qbpn.com/anchorid/support.php?success=1">
+						<div class="form-group">
+						<label for="last_name">What is your name, or nickname?</label>
+						<input  id="last_name" maxlength="80" name="last_name" size="20" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+						<label for="email">We need your email to contact you:</label>
+						<input  id="email" maxlength="80" name="email" size="20" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+						<label for="00NG000000C6iRw">Do you have a Twitter handle? </label>
+						<input id="00NG000000C6iRw" maxlength="20" name="00NG000000C6iRw" size="20" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+						<label for="description">Questions for us? </label>
+						<textarea id="description" name="description" class="form-control"></textarea>
+						</div>
+						<button class="btn btn-success" name="submit" type="submit">Submit</button>
+					</form>
 			    </div>
 			</div>
 		</div>
 	</div>
 </div>
 </div>
+<script type="text/javascript">
+$(function(){
+	$('div.form-success').delay(6000).slideUp();
+}); 
+</script>
 <?php include "includes/footer.php"; ?>
 </body>
 </html>
