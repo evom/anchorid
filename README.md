@@ -357,4 +357,4 @@ Body:
     }
 }
 If the status is AUTHORIZED, then you have to authenticate your internal user associated with the AnchorID consumerid returned, either way you have to show an Unsuccessful Sign In message to your user.
-* Do not associate your internal users with the AnchorID received in the Redirect URI query since it can be altered by anyone.
+* Do not associate your internal users with the AnchorID received in the Redirect URI query since it can be altered by anyone./anchorid2015 www.anchorid.com/
