@@ -146,12 +146,15 @@ The sign in transaction can be authorized, rejected, timed-out, etc., so you hav
 
 
 **Endpoint:** https://api.anchorid.com/transaction
+
 **Method:** GET
+
 **Authentication:** Passing your Access Token in the HTTP Authorization Header as follow:
 
 `Authorization: Bearer {AccessToken}`
 
 **Parameters:**
+
 Name | Value
 --------|-------
 id | Transaction ID returned in previous request
