@@ -11,7 +11,7 @@
 - [Sign In Status Check](#sign-in-status-check)
 - [Sign In Cancellation](#sign-in-cancellation)
 - [Back-end Only integration mode](#back-end-only-integration-mode)
-- [Redirect URI](#redirect-uri)
+- [Redirect URI](#redirect-uri)Sign In Initiation
 
 
 
@@ -100,17 +100,20 @@ When the user submits to AnchorID, the following sign in transaction must be cre
 **Endpoint:** https://api.anchorid.com/signin
 
 **Method:** POST
+
 **Authentication:** Passing your Access Token in the HTTP Authorization Header as follow:
 
 `Authorization: Bearer {AccessToken}`
 
 **Headers:**
+
 Name | Value
 ----------|--------
 Content-Type | application/json
 Content-Length | Your request size
 
 **Parameters:**
+
 Name | Value
 --------|-------
 client_id | ID associated to the Client App
@@ -215,7 +218,9 @@ If it changes to **AUTHORIZED**, then you have to authenticate your internal use
 When you are displaying the Security Code to your user and asking him or her to authorize the transaction, you can give him or her the option to cancel the sign in process. In that case you can make the following call to the AnchorID API to cancel the transaction.
 
 **Endpoint:** https://api.anchorid.com/transaction
+
 **Method:** PUT
+
 **Authentication:**  Passing your Access Token in the HTTP Authorization Header as follow:
 
 `Authorization: Bearer {AccessToken}`
