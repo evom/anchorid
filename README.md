@@ -3,15 +3,15 @@
 ## Contents
 
 - [Overview](#overview)
-- [Back and Front-end integration mode](back-and-Front-end-integration-mode)
-- [Access Token Acquisition](access-token-acquisition)
-- [Request 1 – Authorization Code](request-1---authorization-code)
-- [Request 2 – Access Token](request-2---access-token)
-- [Sign In Initiation](sign-in-initiation)
-- [Sign In Status Check](sign-in-status-check)
-- [Sign In Cancellation](sign-in-cancellation)
-- [Back-end Only integration mode](back-end-only-integration-mode)
-- [Redirect URI](redirect-uri)
+- [Back and Front-end integration mode](#back-and-Front-end-integration-mode)
+- [Access Token Acquisition](#access-token-acquisition)
+- [Request 1 – Authorization Code](#request-1---authorization-code)
+- [Request 2 – Access Token](#request-2---access-token)
+- [Sign In Initiation](#sign-in-initiation)
+- [Sign In Status Check](#sign-in-status-check)
+- [Sign In Cancellation](#sign-in-cancellation)
+- [Back-end Only integration mode](#back-end-only-integration-mode)
+- [Redirect URI](#redirect-uri)
 
 
 
@@ -21,7 +21,7 @@ AnchorID offers two options to integrate your application and allow your users a
 
 The Back and Front-end integration mode is more transparent for your users but it requires you to implement the interaction between them and your app interface.
 
-The [Back-end Only integration mode](back-end-only-integration-mode) is easier because the interaction with the users is managed by the AnchorID website but is less transparent for them because they are redirected to a different site when signing into your app.
+The [Back-end Only integration mode](#back-end-only-integration-mode) is easier because the interaction with the users is managed by the AnchorID website but is less transparent for them because they are redirected to a different site when signing into your app.
 
 In both options all the requests to the AnchorID API must be done from your server-side application since you will have to submit your Application Secret, which should be kept private.
 
