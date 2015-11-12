@@ -51,6 +51,7 @@ HTTP Request
 **Method:** POST
 
 **Parameters:**
+
 Name | Value
 -----|--------
 client_id | ID associated to the Client App
