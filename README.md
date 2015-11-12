@@ -46,7 +46,6 @@ The following two requests are needed in order to get the Token.
 
 
 **Endpoint:**  https://oauth.anchorid.com/oauth2
-HTTP Request
 
 **Method:** POST
 
@@ -55,7 +54,7 @@ HTTP Request
 Name | Value
 -----|--------
 client_id | ID associated to the Client App
-anchorid |AnchorID submitted by the user
+anchorid | AnchorID submitted by the user
 response_type | code
 state | null
 
@@ -74,10 +73,13 @@ HTTP Response Body:
 ### Request 2 – Access Token
 
 **Endpoint:** https://oauth.anchorid.com/oauth2
+
 **Method:** POST
+
 **Authentication:** HTTP Basic Authentication using your client_id and client_secret as the username and password.
 
 **Parameters:**
+
 Name | Value | code
 -------|-----|-----
 Authorization |Code returned in previous request grant_type | authorization_code
